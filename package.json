@@ -23,8 +23,7 @@
     "test:browser:interactive": "cypress open",
     "demo": "superstatic demo",
     "clean": "rimraf lib dist",
-    "prepublishOnly": "npm run build",
-    "prepare": "npm run clean"
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "react",
@@ -44,9 +43,9 @@
     "LICENSE"
   ],
   "dependencies": {
-    "@types/quill": "2.0.2",
+    "@types/quill": "^1.3.10",
     "lodash": "^4.17.4",
-    "quill": "2.0.2"
+    "quill": "^1.3.7"
   },
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
