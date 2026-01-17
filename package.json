@@ -44,7 +44,6 @@
     "LICENSE"
   ],
   "dependencies": {
-    "@types/quill": "2.0.2",
     "lodash": "^4.17.4",
     "quill": "2.0.2"
   },
